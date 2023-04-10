@@ -26,6 +26,9 @@
                                 class="card-img-top logo" alt="Logo"></a>
                         <h2 class="card-text welcomeMsg">Welcome</h2>
                         <img src="login register.jpg" class="card-img-top img" alt="Img">
+                        <!-- Form -->
+                        <form>
+                            <!-- Form Group (email)-->
                             <div class="form-floating mb-3">
                                 <input type="email" class="form-control" name="email" id="email"
                                     placeholder="name@example.com" required>
@@ -34,6 +37,7 @@
                                     Please enter a valid email address
                                 </div>
                             </div>
+                            <!-- Form Group (password)-->
                             <div class="form-floating mb-3">
                                 <input type="password" class="form-control" id="passwrd" placeholder="Password"
                                     required>
@@ -42,11 +46,12 @@
                                     Password must contain at least one uppercase letter,number and must be 8 characters long.
                                 </div>
                             </div>
+                            <!-- Form Group (repeatpassword)-->
                             <div class="form-floating mb-3">
                                 <input type="password" class="form-control" id="rpasswrd" placeholder="Password" required>
                                 <label for="rpasswrd">Confirm Password</label>
                                 <div class="invalid-feedback">
-                                    Passwords does'nt  match
+                                    Passwords do not match
                                 </div>
                             </div>
                             <div class="" id="error-feedback">
@@ -54,6 +59,7 @@
                             </div>
                             <!-- Register Button -->
                             <button class="btn btn-success loginBtn" id="registerbtn">Register</button>
+                        </form>
                     </div>
                 </div>
             </div>
