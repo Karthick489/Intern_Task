@@ -30,19 +30,19 @@
 }
 
 .actnbtn {
-    margin: 10px 80px 10px 0px;
-    background-color: #092865;
+    margin: 10px 10px 10px 10px;
+    background-color: #ff0000;
 }
 
 .loginBtn {
     width: 100%;
     margin: 10px 0 10px 0;
-    background-color: #092865;
+    background-color: #ff0000;
 }
 
 .forgot_pass a {
     text-decoration: none !important;
-    color: #092865;
+    color: #ff0000;
     font-weight: 600;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .updateBtn {
-    background-color: #092865;
+    background-color: #ff0000;
 }
 
 /* || Landscape Mode  */
